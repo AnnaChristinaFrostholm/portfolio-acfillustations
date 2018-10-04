@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: dimgray;
+	
+    
+}
+.something {
+	font-family: 'toma sans';
+	color: darkgoldenrod;
+	text-align: center;
+}
+
+.about-me {
+	font-family: 'toma sans';
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+.text {
+	font-family: 'toma sans';
+	color: darkgray;
+	font-size: 17px;
+	text-align: center;
+	margin-left: 10px;
+}
+.technologies {
+	font-family: 'toma sans';
+	color: darkgoldenrod;
+	
+}
+.text-technologies{
+	font-family: 'toma sans';
+	color: darkgray;
+	font-size: 14px;
+	
+}
+#tech-box 
+.education {
+	font-family: 'toma sans';
+	color: darkgoldenrod;
+	
+}
+.text-education {
+	font-family: 'toma sans';
+	color: darkgray;
+	font-size: 14px;
+	
+}

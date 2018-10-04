@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+/*baggrundsbillede*/
+body {
+	background-image:
+	url(../portfolio-images/bjergebaggrund.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+    
+}
+/*tekst indstillinger for "portfolio"*/
+h1 {
+	color: white;
+	font-family: "Toma sans", sans-serif; 
+	font-size: 6vw;
+	text-align: center;
+	bottom: 100px;
+	margin: auto;
+	margin-bottom: 30vh;
+	display: block;
+	line-height: 3vw;
+}
+/*styling for whitebox*/
+.white-box {
+	border: 2px solid white; 
+	height: 50vh;
+	width:  23%; 
+	margin: auto;
+	margin-top: 25vh;
+	margin-bottom: 25vh;
+}
+@media screen and (max-width: 500px) {
+	.white-box{
+		height: 20vh;
+		margin-top: 40vh;
+		margin-bottom: 40vh;
+	}
+}
+
+.por {
+	top: 20px;
+}
+	/*navigation*/
+.navigation {
+	position: absolute;
+	left: 275px;
+	bottom: 7%;
+	
+	/*styling af navigation*/
+}
+nav a {
+	font-family: 'toma sans';
+	color: #FFFFFF;
+	font-size: 24px; 
+	margin-right: 116px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: dimgray;
+}
+
+
+
+
+
+
+
+
+
+	
+	

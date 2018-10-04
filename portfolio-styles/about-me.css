@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 body {
 	background-color: dimgray;
 	
@@ -10,6 +9,8 @@ body {
 	font-family: 'toma sans';
 	color: darkgoldenrod;
 	text-align: center;
+	position: relative;
+	top: 35px;
 }
 
 .about-me {
@@ -38,7 +39,16 @@ body {
 	font-size: 14px;
 	
 }
-#tech-box 
+#tech-box {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: inline-block;
+	position: relative;
+	left: 450px;
+	top: 67px;
+	
+}
 .education {
 	font-family: 'toma sans';
 	color: darkgoldenrod;
@@ -48,5 +58,45 @@ body {
 	font-family: 'toma sans';
 	color: darkgray;
 	font-size: 14px;
+}
+#edu-box {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: inline-block;
+	position: relative;
+	left: 650px;
+	bottom: 420px;
+}
+
+.navigation {
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: absolute;
+	left: 275px;
+	bottom: 7%;
 	
+	/*styling af navigation*/
+}
+nav a {
+	font-family: 'toma sans';
+	color: #FFFFFF;
+	font-size: 24px; 
+	margin-right: 116px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: black;
+}
+.streg {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: white;
+	width: 2px;
+	height: 240px;
+	position: relative;
+	left: 50%; 
+	bottom: 160px;
 }
